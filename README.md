@@ -99,7 +99,7 @@ En este ejemplo, tanto Rectangle como Circle implementan la interfaz Shape y pue
 
 **4. Segregación de Interfaces (ISP, Interface Segregation Principle):** 
 
-Los clientes no deben verse obligados a depender de interfaces que no utilizan. En lugar de tener interfaces monolíticas, es preferible tener interfaces más pequeñas y específicas para que los clientes solo dependan de los métodos que necesitan. En Spring Boot, podemos aplicar este principio dividiendo interfaces grandes en interfaces más pequeñas y específicas. Por ejemplo, consideremos una interfaz Vehicle que tiene múltiples métodos:
+Los clientes no deben verse obligados a depender de interfaces que no utilizan. En lugar de tener interfaces monolíticas, es preferible tener interfaces más pequeñas y específicas para que los clientes solo dependan de los métodos que necesitan. Por ejemplo, consideremos una interfaz Vehicle que tiene múltiples métodos:
 
 ```java
 public interface Vehicle {
